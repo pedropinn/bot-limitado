@@ -1,8 +1,8 @@
 const { ApplicationCommandType, ChannelType } = require('discord.js');
 
 module.exports = {
-    name: 'presenca',
-    description: 'Com a lista de presença',
+    name: 'chamada',
+    description: 'lista de presença',
     type: ApplicationCommandType.ChatInput,
     
     run: async (client, interaction) => {
