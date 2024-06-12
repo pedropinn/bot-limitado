@@ -2,7 +2,7 @@ const { ApplicationCommandType, ChannelType } = require('discord.js');
 
 module.exports = {
     name: 'times',
-    description: 'Comando dividir os times',
+    description: 'Divide em dois times',
     type: ApplicationCommandType.ChatInput,
 
     run: async (client, interaction) => {
